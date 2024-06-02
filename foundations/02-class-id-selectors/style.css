@@ -7,7 +7,7 @@
 
 .odd {
     background-color: #e1b1b1;
-    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #second {
@@ -15,12 +15,11 @@
     font-size: 36px;
 }
 
-.third {
+.adjust-font-size {
     font-size:24px;
 }
 
 #fourth {
     background-color: #CCFFE5;
-    font-size: 24px;
     font-weight: bold;
 }
