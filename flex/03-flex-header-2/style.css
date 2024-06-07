@@ -2,10 +2,6 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-* {
-  border: 1px solid red;
-}
-
 body {
   margin: 0;
   background: #eee;
@@ -16,6 +12,21 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* my addition */
+  padding: 8px;
+}
+
+/* my addition */
+.header, .left-aligned, .links, .right-aligned {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* my addition */
+.right-aligned {
+  margin-left: auto;
+  align-items: center;
 }
 
 .profile-image {
@@ -39,6 +50,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* my addition */
+  height: min-content;
 }
 
 a {
@@ -49,5 +62,6 @@ a {
 
 ul {
   list-style-type: none;
+  /* my addition */
   padding: 0;
 }
